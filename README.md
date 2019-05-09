@@ -81,6 +81,9 @@ Flush the privileges to notify the MySQL server of the changes:</br>
 
 now exit</br>
 
+EXIT;</br>
+root@a7627c4d11b2:/# exit</br>
+
 </ol>
 
 
