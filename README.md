@@ -55,16 +55,21 @@ Inside the container, log into the MySQL root administrative account:</br>
 
 Run the show databases command to check for existing databases:</br>
 
-<strong>show databases;</br>
-+--------------------+</br>
-| Database           |</br>
-+--------------------+</br>
-| information_schema |</br>
-| laravel            |</br>
-| mysql              |</br>
-| performance_schema |</br>
-| sys                |</br>
-+--------------------+</strong></br>
+<strong>show databases;</strong></br>
+```
+
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| laravel            |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+
+```
+</br>
 
 create the user account that will be allowed to access this database. Our username will be laraveluser, though you can replace this with another name if you'd prefer. Just be sure that your username and password here match the details you set in your .env file </br>
 
