@@ -15,7 +15,7 @@ open another terminal and check running containers.</br>
 
 CONTAINER ID in this output is a unique identifier for each container, while NAMES lists the service name associated with each. You can use both of these identifiers to access the containers.</br>
 
-
+root@a7627c4d11b2:/#
 <li>now modify the .env file</li>
 
 ```
@@ -81,8 +81,8 @@ Flush the privileges to notify the MySQL server of the changes:</br>
 
 now exit</br>
 
-EXIT;</br>
-root@a7627c4d11b2:/# exit</br>
+<strong>EXIT;</strong></br>
+<strong>root@a7627c4d11b2:/# exit</strong></br>
 
 </ol>
 
